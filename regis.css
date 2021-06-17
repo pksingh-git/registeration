@@ -1,0 +1,25 @@
+#heading{
+
+color: dodgerblue;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: beige;
+}
+#main{
+    
+    color:dodgerblue;
+    display: flex;
+    justify-content: center;
+}
+#btn{
+   background-color: dodgerblue;
+}
+#frm{
+    background-color: white;
+}
+#address{
+  
+    height: 100px;
+}

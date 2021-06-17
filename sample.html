@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="regis.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="heading">REGISTRATION FORM</div> <br>
+
+    <header id="main" >
+     <form action="#" id="frm" >
+    <label for="firstNmae">First Name</label><br>
+    <input type=" text"id="firstName"> <br>
+    <label for="middleName">Middle Name</label> <br>
+    <input type=" text"id="middleName"> <br>
+    <label for="lastName">Last Name</label> <br>
+    <input type=" text"id="lasttName"><br>
+   <br>
+   <label for="course">Choose Course:</label>
+   <select name="course" id="course">
+       <option value="java">Java</option>
+       <option value="python">Python</option>
+       <option value="sql">Sql</option>
+
+   </select>
+   <h3>Select Your Gender:</h3>
+   <input type="radio" id="male" name="gender" value="male">
+   <label for="male">Male</label>
+   <input type="radio" id="female" name="gender" value="female">
+   <label for="female">Female</label>
+   <input type="radio" id="other" name="gender" value="other">
+   <label for="other">Others</label> <br>
+   <br>
+   <label for="phone">Enter Your Phone Number:</label><br>
+   <input type="tel" id="phone" placeholder="9-345-4567-23" pattern="[0-9]{1} -[0-9]{3}-[0-9]{4}-[0-9]{2}" required> <br> <br>
+<small> Format :  9-345-4567-23</small> <br> <br>
+<label for="email">Email Id:</label><br>
+<input type="text" id="email" placeholder="pk345@gmail.com">
+<br><br>
+<label for="address">Address:</label><br>
+<input type="text" id ="address"> <br> <br>
+<button id="btn">Submit</button>
+
+
+
+</form>
+</header>
+    
+</body>
+</html>
